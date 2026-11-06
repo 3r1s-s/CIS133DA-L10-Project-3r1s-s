@@ -1,0 +1,131 @@
+/**
+    Author: EZR2143734
+    Course: CIS133DA
+    Section: #27487
+    Lesson: 10
+    Loaded for screens smaller than 450px (max-width: 449px).
+**/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    background-color: #ddd;
+    margin-top: 0;
+}
+
+/* Header */
+header {
+    background: black url(../images/background.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 30px 12px;
+    margin: 0;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: #2d3437;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: none;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+}
+
+nav a:hover {
+    background-color: #135367;
+    color: #ffffff;
+}
+
+nav .right {
+    background-color: #E1693D;
+    color: #000000;
+    float: none;
+}
+
+nav .active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+nav {
+    position: static;
+    width: auto;
+}
+
+/* Main */
+main {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.service-card {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.service-card img {
+    float: left;
+    background-color: #4c6ef2;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    margin-right: 5px;
+}
+
+.service-card h2,
+.service-card p {
+    margin: 0;
+    padding: 5px;
+}
+
+.service-card h2 {
+    font-size: 1rem;
+}
+
+.service-card p {
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    background-color: #e1693d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
