@@ -98,9 +98,9 @@ main {
 .service-card img {
     float: left;
     background-color: #4c6ef2;
-    padding: 10px;
-    width: 100px;
-    height: 100px;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
     margin-right: 5px;
 }
 
